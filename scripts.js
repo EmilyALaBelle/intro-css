@@ -13,8 +13,12 @@ const family = [
     }
 ]
 console.log('Hey class this is my family', family)
-doument.getElementById('contact').style.color = 'purple'
+document.getElementById('contact').style.color = 'purple'
 
 const handleColorChange = () => {
     console.log('changing color')
+}
+
+const handleAlert = () => {
+    alert('Beware Zombies!!!!')
 }
