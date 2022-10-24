@@ -3,14 +3,14 @@ body {
 }
 
 #contact {
-    background-color: palegreen;
+    background-color: rgb(49, 255, 214);
 }
 
-* {
+/* * {
     color: rgb(143, 18, 38);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14;
-}
+} */
 
 p {
     color: blue;
@@ -24,7 +24,29 @@ p {
 li {
     color: palevioletred
 }
+.box {
+    color: white;
+    font-weight: 600;
+    background-color: rgb(243, 67, 164);
+    /* padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px; */
+    padding: 10px;
+    /* border-style: solid;
+    border-color: black ;
+    border-width: 3px; */
+    border: solid 3px black;
+    border-radius: 10px;
+    text-transform: capitalize;
 
+    /* margin-top: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 10px; */
+    /* margin: 10px, 20px, 10px, 20px */
+    margin: 10px, 20px;
+}
 footer {
     background-color: rgb(17, 175, 54);
 }
@@ -34,5 +56,5 @@ footer>h3 {
 }
 
 footer>ul>li {
-    color: rgb(177, 35, 25);
+    color: rgb(59, 255, 248);
 }
