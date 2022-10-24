@@ -8,22 +8,46 @@
     <title>Intro to CSS</title>
 </head>
 <style>
+    body {
+        background-color: orange;
+    }
+
+    #contact {
+        background-color: palegreen;
+    }
+
+
+
     * {
-        color: pink;
+        color: rgb(143, 18, 38);
         font-family: Arial, Helvetica, sans-serif;
         font-size: 14;
     }
 
     p {
-        color: lightpink;
+        color: blue;
     }
+
+    .my-ps {
+        background-color: rgb(11, 145, 53);
+    }
+
+
 
     li {
         color: palevioletred
     }
 
     footer {
-        background-color: lightpink;
+        background-color: rgb(17, 175, 54);
+    }
+
+    footer>h3 {
+        background-color: rebeccapurple;
+    }
+
+    footer>ul>li {
+        color: rgb(177, 35, 25);
     }
 </style>
 
@@ -31,12 +55,14 @@
     <header>
         <nav>
             <ul>
-                <li style="color: #e91e63;font-size: larger;letter-spacing: 3px;background-color: pink;">About</li>
+                <li style="color: #c01212;font-size: larger;letter-spacing: 3px;background-color: rgb(28, 159, 30);">
+                    About</li>
                 <li>Services</li>
                 <li>Contact</li>
             </ul>
         </nav>
     </header>
+    <p class="my-ps">
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt vero at ipsam, corporis a cupiditate
         veritatis, quae esse quo impedit, ipsum quasi libero. Corporis et maiores itaque libero consequuntur tenetur.
     </p>
@@ -55,6 +81,7 @@
         consequuntur harum, doloremque dolorum at, quisquam rem blanditiis ducimus. Esse ad delectus quod molestiae
         mollitia odio.
     </p>
+    <h3>Hi mom this is my CSS</h3>
     <footer>
         <ul>
             <li>About</li>
